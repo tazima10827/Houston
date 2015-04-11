@@ -13,6 +13,25 @@
 		6E84E83E1AC92BDE007C5A65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E84E83D1AC92BDE007C5A65 /* Images.xcassets */; };
 		6E84E8411AC92BDE007C5A65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E84E83F1AC92BDE007C5A65 /* LaunchScreen.xib */; };
 		6E84E84D1AC92BDE007C5A65 /* majimax_dentakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E84E84C1AC92BDE007C5A65 /* majimax_dentakuTests.swift */; };
+		9F1A2D7A1AD8148700244033 /* bottan1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D701AD8148700244033 /* bottan1.png */; };
+		9F1A2D7B1AD8148700244033 /* bottan2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D711AD8148700244033 /* bottan2.png */; };
+		9F1A2D7C1AD8148700244033 /* bottan3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D721AD8148700244033 /* bottan3.png */; };
+		9F1A2D7D1AD8148700244033 /* bottan4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D731AD8148700244033 /* bottan4.png */; };
+		9F1A2D7E1AD8148700244033 /* bottan5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D741AD8148700244033 /* bottan5.png */; };
+		9F1A2D7F1AD8148700244033 /* bottan6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D751AD8148700244033 /* bottan6.png */; };
+		9F1A2D801AD8148700244033 /* bottan7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D761AD8148700244033 /* bottan7.png */; };
+		9F1A2D811AD8148700244033 /* bottan8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D771AD8148700244033 /* bottan8.png */; };
+		9F1A2D821AD8148700244033 /* bottan9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D781AD8148700244033 /* bottan9.png */; };
+		9F1A2D851AD814F000244033 /* botton0.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D841AD814F000244033 /* botton0.png */; };
+		9F1A2D8A1AD81B9500244033 /* bottan-.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D861AD81B9500244033 /* bottan-.png */; };
+		9F1A2D8B1AD81B9500244033 /* bottan+.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D871AD81B9500244033 /* bottan+.png */; };
+		9F1A2D8C1AD81B9500244033 /* bottan÷.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D881AD81B9500244033 /* bottan÷.png */; };
+		9F1A2D8D1AD81B9500244033 /* bottan×.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D891AD81B9500244033 /* bottan×.png */; };
+		9F1A2D8F1AD81BD800244033 /* 電卓bt= 23.53.51.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D8E1AD81BD800244033 /* 電卓bt= 23.53.51.png */; };
+		9F1A2D911AD81ED400244033 /* AppDelegate.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D901AD81ED400244033 /* AppDelegate.png */; };
+		9F1A2D931AD823CC00244033 /* bottanclear.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D921AD823CC00244033 /* bottanclear.png */; };
+		9FB8CDB11ACB6988000320B0 /* ボール3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB8CDB01ACB6988000320B0 /* ボール3.png */; };
+		9FE36B651ACE3E6300478D89 /* 電卓bt_CLEAR.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE36B641ACE3E6300478D89 /* 電卓bt_CLEAR.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,25 @@
 		6E84E8461AC92BDE007C5A65 /* majimax-dentakuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "majimax-dentakuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E84E84B1AC92BDE007C5A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E84E84C1AC92BDE007C5A65 /* majimax_dentakuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = majimax_dentakuTests.swift; sourceTree = "<group>"; };
+		9F1A2D701AD8148700244033 /* bottan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan1.png; sourceTree = "<group>"; };
+		9F1A2D711AD8148700244033 /* bottan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan2.png; sourceTree = "<group>"; };
+		9F1A2D721AD8148700244033 /* bottan3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan3.png; sourceTree = "<group>"; };
+		9F1A2D731AD8148700244033 /* bottan4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan4.png; sourceTree = "<group>"; };
+		9F1A2D741AD8148700244033 /* bottan5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan5.png; sourceTree = "<group>"; };
+		9F1A2D751AD8148700244033 /* bottan6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan6.png; sourceTree = "<group>"; };
+		9F1A2D761AD8148700244033 /* bottan7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan7.png; sourceTree = "<group>"; };
+		9F1A2D771AD8148700244033 /* bottan8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan8.png; sourceTree = "<group>"; };
+		9F1A2D781AD8148700244033 /* bottan9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan9.png; sourceTree = "<group>"; };
+		9F1A2D841AD814F000244033 /* botton0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botton0.png; sourceTree = "<group>"; };
+		9F1A2D861AD81B9500244033 /* bottan-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottan-.png"; sourceTree = "<group>"; };
+		9F1A2D871AD81B9500244033 /* bottan+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottan+.png"; sourceTree = "<group>"; };
+		9F1A2D881AD81B9500244033 /* bottan÷.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottan÷.png"; sourceTree = "<group>"; };
+		9F1A2D891AD81B9500244033 /* bottan×.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottan×.png"; sourceTree = "<group>"; };
+		9F1A2D8E1AD81BD800244033 /* 電卓bt= 23.53.51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "電卓bt= 23.53.51.png"; sourceTree = "<group>"; };
+		9F1A2D901AD81ED400244033 /* AppDelegate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppDelegate.png; sourceTree = "<group>"; };
+		9F1A2D921AD823CC00244033 /* bottanclear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottanclear.png; sourceTree = "<group>"; };
+		9FB8CDB01ACB6988000320B0 /* ボール3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボール3.png"; sourceTree = "<group>"; };
+		9FE36B641ACE3E6300478D89 /* 電卓bt_CLEAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "電卓bt_CLEAR.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +120,7 @@
 				6E84E83A1AC92BDE007C5A65 /* Main.storyboard */,
 				6E84E83D1AC92BDE007C5A65 /* Images.xcassets */,
 				6E84E83F1AC92BDE007C5A65 /* LaunchScreen.xib */,
+				9FB8CDB01ACB6988000320B0 /* ボール3.png */,
 				6E84E8341AC92BDE007C5A65 /* Supporting Files */,
 			);
 			path = "majimax-dentaku";
@@ -91,6 +130,24 @@
 			isa = PBXGroup;
 			children = (
 				6E84E8351AC92BDE007C5A65 /* Info.plist */,
+				9F1A2D921AD823CC00244033 /* bottanclear.png */,
+				9FE36B641ACE3E6300478D89 /* 電卓bt_CLEAR.png */,
+				9F1A2D8E1AD81BD800244033 /* 電卓bt= 23.53.51.png */,
+				9F1A2D861AD81B9500244033 /* bottan-.png */,
+				9F1A2D871AD81B9500244033 /* bottan+.png */,
+				9F1A2D881AD81B9500244033 /* bottan÷.png */,
+				9F1A2D891AD81B9500244033 /* bottan×.png */,
+				9F1A2D701AD8148700244033 /* bottan1.png */,
+				9F1A2D711AD8148700244033 /* bottan2.png */,
+				9F1A2D721AD8148700244033 /* bottan3.png */,
+				9F1A2D731AD8148700244033 /* bottan4.png */,
+				9F1A2D741AD8148700244033 /* bottan5.png */,
+				9F1A2D751AD8148700244033 /* bottan6.png */,
+				9F1A2D761AD8148700244033 /* bottan7.png */,
+				9F1A2D771AD8148700244033 /* bottan8.png */,
+				9F1A2D781AD8148700244033 /* bottan9.png */,
+				9F1A2D841AD814F000244033 /* botton0.png */,
+				9F1A2D901AD81ED400244033 /* AppDelegate.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,9 +249,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE36B651ACE3E6300478D89 /* 電卓bt_CLEAR.png in Resources */,
+				9F1A2D8C1AD81B9500244033 /* bottan÷.png in Resources */,
+				9F1A2D821AD8148700244033 /* bottan9.png in Resources */,
+				9F1A2D931AD823CC00244033 /* bottanclear.png in Resources */,
+				9F1A2D811AD8148700244033 /* bottan8.png in Resources */,
+				9F1A2D8D1AD81B9500244033 /* bottan×.png in Resources */,
 				6E84E83C1AC92BDE007C5A65 /* Main.storyboard in Resources */,
+				9F1A2D8B1AD81B9500244033 /* bottan+.png in Resources */,
+				9F1A2D7D1AD8148700244033 /* bottan4.png in Resources */,
+				9F1A2D7A1AD8148700244033 /* bottan1.png in Resources */,
+				9F1A2D7C1AD8148700244033 /* bottan3.png in Resources */,
 				6E84E8411AC92BDE007C5A65 /* LaunchScreen.xib in Resources */,
+				9F1A2D8F1AD81BD800244033 /* 電卓bt= 23.53.51.png in Resources */,
+				9F1A2D8A1AD81B9500244033 /* bottan-.png in Resources */,
+				9FB8CDB11ACB6988000320B0 /* ボール3.png in Resources */,
+				9F1A2D911AD81ED400244033 /* AppDelegate.png in Resources */,
+				9F1A2D851AD814F000244033 /* botton0.png in Resources */,
+				9F1A2D7B1AD8148700244033 /* bottan2.png in Resources */,
+				9F1A2D7F1AD8148700244033 /* bottan6.png in Resources */,
+				9F1A2D801AD8148700244033 /* bottan7.png in Resources */,
 				6E84E83E1AC92BDE007C5A65 /* Images.xcassets in Resources */,
+				9F1A2D7E1AD8148700244033 /* bottan5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -405,6 +481,7 @@
 				6E84E8521AC92BDE007C5A65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E84E8531AC92BDE007C5A65 /* Build configuration list for PBXNativeTarget "majimax-dentakuTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +490,7 @@
 				6E84E8551AC92BDE007C5A65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

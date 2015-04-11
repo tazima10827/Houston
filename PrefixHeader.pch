@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  majimax-dentaku
+//
+//  Created by 田嶋智洋 on 2015/03/30.
+//  Copyright (c) 2015年 奥村 維敦. All rights reserved.
+//
+
+#ifndef majimax_dentaku_PrefixHeader_pch
+#define majimax_dentaku_PrefixHeader_pch
+
+#define Foo(n) -(IBAction)bt##n{ if(ope==0 ) { number=number*10+n; label.text=[NSString stringWithFormat:@"%.2f",number];} else{ number2=number2*10+n;label2.text=[NSString stringWithFormat:@"%.2f",number2];}}
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

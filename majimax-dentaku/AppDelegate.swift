@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  majimax-dentaku
 //
-//  Created by 奥村 維敦 on 2015/03/30.
-//  Copyright (c) 2015年 奥村 維敦. All rights reserved.
+//  Created by 田嶋智洋 on 2015/03/30.
+//  Copyright (c) 2015年 田嶋智洋. All rights reserved.
 //
 
 import UIKit
