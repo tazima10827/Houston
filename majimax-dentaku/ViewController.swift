@@ -385,4 +385,5 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             label.text = String(format: "%.2f",number/number2)
         }
 }
+    //
 }
