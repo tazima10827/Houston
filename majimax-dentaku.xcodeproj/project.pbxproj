@@ -13,6 +13,8 @@
 		6E84E83E1AC92BDE007C5A65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E84E83D1AC92BDE007C5A65 /* Images.xcassets */; };
 		6E84E8411AC92BDE007C5A65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E84E83F1AC92BDE007C5A65 /* LaunchScreen.xib */; };
 		6E84E84D1AC92BDE007C5A65 /* majimax_dentakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E84E84C1AC92BDE007C5A65 /* majimax_dentakuTests.swift */; };
+		9F1348661ADC11CC00475F4E /* laiagame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1348651ADC11CC00475F4E /* laiagame.jpg */; };
+		9F1348681ADC1F0200475F4E /* himei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F1348671ADC1F0200475F4E /* himei.mp3 */; };
 		9F1A2D7A1AD8148700244033 /* bottan1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D701AD8148700244033 /* bottan1.png */; };
 		9F1A2D7B1AD8148700244033 /* bottan2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D711AD8148700244033 /* bottan2.png */; };
 		9F1A2D7C1AD8148700244033 /* bottan3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D721AD8148700244033 /* bottan3.png */; };
@@ -30,8 +32,12 @@
 		9F1A2D8F1AD81BD800244033 /* 電卓bt= 23.53.51.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D8E1AD81BD800244033 /* 電卓bt= 23.53.51.png */; };
 		9F1A2D911AD81ED400244033 /* AppDelegate.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D901AD81ED400244033 /* AppDelegate.png */; };
 		9F1A2D931AD823CC00244033 /* bottanclear.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A2D921AD823CC00244033 /* bottanclear.png */; };
+		9F394DE31AD9712A00E44753 /* bottan=.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F394DE21AD9712A00E44753 /* bottan=.png */; };
 		9FB8CDB11ACB6988000320B0 /* ボール3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB8CDB01ACB6988000320B0 /* ボール3.png */; };
 		9FE36B651ACE3E6300478D89 /* 電卓bt_CLEAR.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE36B641ACE3E6300478D89 /* 電卓bt_CLEAR.png */; };
+		9FF599481ADD7C6A00371CF9 /* nonomura.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 9FF599461ADD7C6A00371CF9 /* nonomura.m4r */; };
+		9FF599491ADD7C6A00371CF9 /* nonomura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FF599471ADD7C6A00371CF9 /* nonomura.jpg */; };
+		9FF5994B1ADD7C6F00371CF9 /* 福永.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FF5994A1ADD7C6F00371CF9 /* 福永.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,8 @@
 		6E84E8461AC92BDE007C5A65 /* majimax-dentakuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "majimax-dentakuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E84E84B1AC92BDE007C5A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E84E84C1AC92BDE007C5A65 /* majimax_dentakuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = majimax_dentakuTests.swift; sourceTree = "<group>"; };
+		9F1348651ADC11CC00475F4E /* laiagame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laiagame.jpg; sourceTree = "<group>"; };
+		9F1348671ADC1F0200475F4E /* himei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = himei.mp3; sourceTree = "<group>"; };
 		9F1A2D701AD8148700244033 /* bottan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan1.png; sourceTree = "<group>"; };
 		9F1A2D711AD8148700244033 /* bottan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan2.png; sourceTree = "<group>"; };
 		9F1A2D721AD8148700244033 /* bottan3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan3.png; sourceTree = "<group>"; };
@@ -72,8 +80,13 @@
 		9F1A2D8E1AD81BD800244033 /* 電卓bt= 23.53.51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "電卓bt= 23.53.51.png"; sourceTree = "<group>"; };
 		9F1A2D901AD81ED400244033 /* AppDelegate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppDelegate.png; sourceTree = "<group>"; };
 		9F1A2D921AD823CC00244033 /* bottanclear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottanclear.png; sourceTree = "<group>"; };
+		9F394DE21AD9712A00E44753 /* bottan=.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottan=.png"; sourceTree = "<group>"; };
 		9FB8CDB01ACB6988000320B0 /* ボール3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボール3.png"; sourceTree = "<group>"; };
 		9FE36B641ACE3E6300478D89 /* 電卓bt_CLEAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "電卓bt_CLEAR.png"; sourceTree = "<group>"; };
+		9FF599461ADD7C6A00371CF9 /* nonomura.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = nonomura.m4r; sourceTree = "<group>"; };
+		9FF599471ADD7C6A00371CF9 /* nonomura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nonomura.jpg; sourceTree = "<group>"; };
+		9FF5994A1ADD7C6F00371CF9 /* 福永.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "福永.jpg"; sourceTree = "<group>"; };
+		9FF5994C1ADD7C8000371CF9 /* buzama.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = buzama.m4r; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,10 +142,17 @@
 		6E84E8341AC92BDE007C5A65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9FF5994C1ADD7C8000371CF9 /* buzama.m4r */,
 				6E84E8351AC92BDE007C5A65 /* Info.plist */,
 				9F1A2D921AD823CC00244033 /* bottanclear.png */,
+				9F1348651ADC11CC00475F4E /* laiagame.jpg */,
 				9FE36B641ACE3E6300478D89 /* 電卓bt_CLEAR.png */,
 				9F1A2D8E1AD81BD800244033 /* 電卓bt= 23.53.51.png */,
+				9F1348671ADC1F0200475F4E /* himei.mp3 */,
+				9FF599461ADD7C6A00371CF9 /* nonomura.m4r */,
+				9FF5994A1ADD7C6F00371CF9 /* 福永.jpg */,
+				9FF599471ADD7C6A00371CF9 /* nonomura.jpg */,
+				9F394DE21AD9712A00E44753 /* bottan=.png */,
 				9F1A2D861AD81B9500244033 /* bottan-.png */,
 				9F1A2D871AD81B9500244033 /* bottan+.png */,
 				9F1A2D881AD81B9500244033 /* bottan÷.png */,
@@ -253,15 +273,21 @@
 				9F1A2D8C1AD81B9500244033 /* bottan÷.png in Resources */,
 				9F1A2D821AD8148700244033 /* bottan9.png in Resources */,
 				9F1A2D931AD823CC00244033 /* bottanclear.png in Resources */,
+				9F1348681ADC1F0200475F4E /* himei.mp3 in Resources */,
 				9F1A2D811AD8148700244033 /* bottan8.png in Resources */,
 				9F1A2D8D1AD81B9500244033 /* bottan×.png in Resources */,
 				6E84E83C1AC92BDE007C5A65 /* Main.storyboard in Resources */,
 				9F1A2D8B1AD81B9500244033 /* bottan+.png in Resources */,
 				9F1A2D7D1AD8148700244033 /* bottan4.png in Resources */,
+				9FF599491ADD7C6A00371CF9 /* nonomura.jpg in Resources */,
+				9FF599481ADD7C6A00371CF9 /* nonomura.m4r in Resources */,
 				9F1A2D7A1AD8148700244033 /* bottan1.png in Resources */,
 				9F1A2D7C1AD8148700244033 /* bottan3.png in Resources */,
 				6E84E8411AC92BDE007C5A65 /* LaunchScreen.xib in Resources */,
+				9F1348661ADC11CC00475F4E /* laiagame.jpg in Resources */,
+				9FF5994B1ADD7C6F00371CF9 /* 福永.jpg in Resources */,
 				9F1A2D8F1AD81BD800244033 /* 電卓bt= 23.53.51.png in Resources */,
+				9F394DE31AD9712A00E44753 /* bottan=.png in Resources */,
 				9F1A2D8A1AD81B9500244033 /* bottan-.png in Resources */,
 				9FB8CDB11ACB6988000320B0 /* ボール3.png in Resources */,
 				9F1A2D911AD81ED400244033 /* AppDelegate.png in Resources */,

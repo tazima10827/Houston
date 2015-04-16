@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate,UIPickerViewDelegate {
+    var direction = ["黒色","赤色","青色","黄色","緑色","茶色","白色"]
+    var animationDuration = ["1", "2", "3", "4", "5", "6"]
     var number:Double = 0
     var number2:Double = 0
     var number3:Double = 0
@@ -17,10 +21,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     var maipush:Int = 0
     var num = 3
     var ope:Int = 0
-    var pai=Float()
+    var pai:Double = 3.14
     @IBOutlet var label:UILabel!
+    var myAudioPlayer : AVAudioPlayer!
+    var myButton : UIButton!
     
-        
+    
+    @IBOutlet weak var pickerView: UIPickerView!
         @IBOutlet weak var imageView: UIImageView!
         @IBAction func launchCamera(sender: AnyObject) {
             
@@ -37,7 +44,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
             
-            let image = info[UIImagePickerControllerOriginalImage] as UIImage
+            let image = info[UIImagePickerControllerOriginalImage] as! UIImage
             imageView.image = image
             UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
             self.dismissViewControllerAnimated(true, completion: nil)
@@ -53,26 +60,98 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 2
+    }
     
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        if(component == 0){
+            return direction.count;  // 1列目の選択肢の数
+        }else{
+            return animationDuration.count;  // 2列目の選択肢の数
+        }
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+        if(component == 0){
+            return direction[row]  // 1列目のrow番目に表示する値
+        }else{
+            return animationDuration[row]  // 2列目のrow番目に表示する値
+        }
+    }
     
     @IBAction func bt1(){
         number=number*10+1
         label.text = String(format: "%.2f",number)
         
+        let img1 = UIImage(named:"laiagame.jpg")
+        //UIImageViewにUIIimageを追加
+        let imageView1 = UIImageView(image:img1)
+        
+        //UIImageViewのサイズと位置を決めます
+        imageView1.frame = CGRectMake(0, 0, 375, 670)
+        //viewに追加します
+        self.view.addSubview(imageView1)
+        
+        //最前面に指定します
+        self.view.bringSubviewToFront(imageView1)
+        
+            
+        //再生する音源のURLを生成.
+        let soundFilePath : NSString = NSBundle.mainBundle().pathForResource("himei", ofType: "mp3")!
+        let fileURL : NSURL = NSURL(fileURLWithPath: soundFilePath as String)!
+        
+        //AVAudioPlayerのインスタンス化.
+        myAudioPlayer = AVAudioPlayer(contentsOfURL: fileURL, error: nil)
+        //myAudioPlayerの再生.
+        myAudioPlayer.play()
+        
     }
     @IBAction func bt2(){
         number=number*10+2
         label.text = String(format: "%.2f",number)
+        let img1 = UIImage(named:"福永.jpg")
+        //UIImageViewにUIIimageを追加
+        let imageView1 = UIImageView(image:img1)
+        
+        //UIImageViewのサイズと位置を決めます
+        imageView1.frame = CGRectMake(0, 0, 375, 670)
+        //viewに追加します
+        self.view.addSubview(imageView1)
+        
+        //最前面に指定します
+        self.view.bringSubviewToFront(imageView1)
+
         
     }
       @IBAction func bt3(){
         number=number*10+3
         label.text = String(format: "%.2f",number)
+        let img1 = UIImage(named:"nonomura.jpg")
+        //UIImageViewにUIIimageを追加
+        let imageView1 = UIImageView(image:img1)
         
+        //UIImageViewのサイズと位置を決めます
+        imageView1.frame = CGRectMake(0, 0, 375, 670)
+        //viewに追加します
+        self.view.addSubview(imageView1)
+        
+        //最前面に指定します
+        self.view.bringSubviewToFront(imageView1)
     }
     @IBAction func bt4(){
         number=number*10+4
         label.text = String(format: "%.2f",number)
+        //再生する音源のURLを生成.
+        let soundFilePath : NSString = NSBundle.mainBundle().pathForResource("himei", ofType: "mp3")!
+        let fileURL : NSURL = NSURL(fileURLWithPath: soundFilePath as String)!
+        
+        //AVAudioPlayerのインスタンス化.
+        myAudioPlayer = AVAudioPlayer(contentsOfURL: fileURL, error: nil)
+        //myAudioPlayerの再生.
+        myAudioPlayer.play()
+
         
     }
     @IBAction func bt5(){
@@ -104,6 +183,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         number=number*10+0
         label.text = String(format: "%.2f",number)
         
+    }
+    @IBAction func bt10(){
+            
+            let sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("himei", ofType: "mp3")!)
+            var audioPlayer: AVAudioPlayer = AVAudioPlayer(contentsOfURL: sound_data, error: nil)
+            audioPlayer.play()
     }
     @IBAction func puls()
     {
@@ -327,6 +412,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     @IBAction func equal()
     {
+        
         if(ope==1){
             number2 = number2 + number
             label.text = String(format: "%.2f",number2)
@@ -385,5 +471,4 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             label.text = String(format: "%.2f",number/number2)
         }
 }
-    //
 }
